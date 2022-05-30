@@ -1,6 +1,5 @@
-﻿using Production.Entities.Models;
-using Production.Entities.RequestFeatures;
-using ProductionWebApi.Models;
+﻿using Production.Entities.DTO;
+using Production.Entities.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,12 +10,13 @@ namespace Production.Contracts
 {
     public interface IProductRepository
     {
-        Task<IEnumerable<Product>> GetAllProductsAsync(bool trackChanges);
-        Task<IEnumerable<vSearchProduct>> SearchProduct(ProductParameters productParameters, bool trackChanges);
-        //Task<Product> GetCustomersAsync(int ProdID, bool trackChanges);
-        //        Task<IEnumerable<vAddProductt>> AddProductts(bool trackChanges);
-        //void CreateProductAsync(Product product);
-        //void DeleteProductAsync(Product product);
-        //void UpdateProductAsync(Product product);
+        Task<IEnumerable<Product>> GetAllProduct(bool trackChanges);
+        Task<Product> GetProductByID(int ProdID, bool trackChanges);
+        Task<Product> GetProductByName(string name, bool trackChanges);
+        //Task<Product> GetProductBy(int ProdID);
+        void CreateProduct(Product product);
+        void UpdateProduct(Product product);
+        void DeleteProduct(Product product);
+       
     }
 }

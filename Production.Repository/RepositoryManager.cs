@@ -11,22 +11,34 @@ namespace Production.Repository
     public class RepositoryManager : IRepositoryManager
     {
         private AdventureContext _adventureContext;
+        private IvProductRepository _vproductRepository;
         private IProductRepository _productRepository;
-        //private IAddProduct _addProduct;
-        private IAddProd _addProd;
-       // private ICOBA _coba;
-       // private IBARU _baru;
-      // private I
+        private IWorkOrderRepository _workOrderRepository;
+        private IProductWorkOrderRepository _productWorkOrderRepository;
+        private IWorkOrderRoutingRepository _workOrderRoutingRepository;
+        private IPhotoRepository _photoRepository;
+        private IProductProductPhotoRepository _productProductPhotoRepository;
         public RepositoryManager(AdventureContext adventureContext)
         {
             _adventureContext = adventureContext;
         }
 
-
-
-
         //membuat objek ke memory... stiap program ada konstruktor, 
-        public IProductRepository ProductRepository
+        public IvProductRepository ProductRepository
+        {
+            get
+            {
+                if (_vproductRepository == null)
+                {
+                    _vproductRepository = new vProductRepository(_adventureContext);
+                }
+                return _vproductRepository;
+            }
+        }
+
+        
+
+        public IProductRepository Product
         {
             get
             {
@@ -38,46 +50,77 @@ namespace Production.Repository
             }
         }
 
-        //public IAddProduct AddProduct
-        //{
-        //    get
-        //    {
-        //        if (_addProduct == null)
-        //        {
-        //            _addProduct = new AddProductRepository(_adventureContext);
-        //        }
-        //        return _addProduct;
-        //    }
-        //}
-
-        
-
-        public IAddProd ProdukBaru
+        public IvProductRepository vProductRepository
         {
             get
             {
-                if (_addProd == null)
+                if (_vproductRepository == null)
                 {
-                    _addProd = new AddProd(_adventureContext);
+                    _vproductRepository = new vProductRepository(_adventureContext);
                 }
-                return _addProd;
+                return _vproductRepository;
             }
         }
 
+        public IWorkOrderRepository WorkOrderRepository
+        {
+            get
+            {
+                if (_workOrderRepository == null)
+                {
+                    _workOrderRepository = new WorkOrderRepository(_adventureContext);
+                }
+                return _workOrderRepository;
+            }
+        }
 
-        //public ICOBA Nyoba
-        //{
-        //    get
-        //    {
-        //        if (_coba == null)
-        //        {
-        //            _coba = new COBA(_adventureContext);
-        //        }
-        //        return _coba;
-        //    }
-        //}
+        public IProductWorkOrderRepository ProductWorkOrderRepository
+        {
+            get
+            {
+                if (_productWorkOrderRepository == null)
+                {
+                    _productWorkOrderRepository = new ProductWorkOrderRepository(_adventureContext);
+                }
+                return _productWorkOrderRepository;
+            }
+        }
 
+        public IWorkOrderRoutingRepository WorkOrderRoutingRepository
+        {
+            get
+            {
+                if (_workOrderRoutingRepository == null)
+                {
+                    _workOrderRoutingRepository = new WorkOrderRoutingRepository(_adventureContext);
+                }
+                return _workOrderRoutingRepository;
+            }
+        }
 
+        public IPhotoRepository photoRepository
+        {
+            get
+            {
+                if (_photoRepository == null)
+                {
+                    _photoRepository = new PhotoRepository(_adventureContext);
+                }
+                return _photoRepository;
+            }
+        }
+
+        public IProductProductPhotoRepository ProductProductPhotoRepository
+        {
+            get
+            {
+                if (_productProductPhotoRepository == null)
+                {
+                    _productProductPhotoRepository = new ProductProductPhotoRepository(_adventureContext);
+                }
+                return _productProductPhotoRepository;
+            }
+        }
 
         public void Save()
         {

@@ -73,3 +73,33 @@ D:\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production
 D:\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\refint\Production.Contracts.dll
 D:\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.pdb
 D:\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\ref\Production.Contracts.dll
+D:\backup\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.csproj.AssemblyReference.cache
+D:\backup\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\backup\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.AssemblyInfoInputs.cache
+D:\backup\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.AssemblyInfo.cs
+D:\backup\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.csproj.CoreCompileInputs.cache
+D:\backup\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.dll
+D:\backup\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\refint\Production.Contracts.dll
+D:\backup\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.pdb
+D:\backup\nww\AdventureProduction-main\Production.Contracts\bin\Debug\net5.0\Production.Contracts.deps.json
+D:\backup\nww\AdventureProduction-main\Production.Contracts\bin\Debug\net5.0\Production.Contracts.dll
+D:\backup\nww\AdventureProduction-main\Production.Contracts\bin\Debug\net5.0\Production.Contracts.pdb
+D:\backup\nww\AdventureProduction-main\Production.Contracts\bin\Debug\net5.0\Production.Entities.dll
+D:\backup\nww\AdventureProduction-main\Production.Contracts\bin\Debug\net5.0\Production.Entities.pdb
+D:\backup\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.csproj.CopyComplete
+D:\backup\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\ref\Production.Contracts.dll
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.Contracts\bin\Debug\net5.0\Production.Contracts.deps.json
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.Contracts\bin\Debug\net5.0\Production.Contracts.dll
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.Contracts\bin\Debug\net5.0\Production.Contracts.pdb
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.Contracts\bin\Debug\net5.0\Production.Entities.dll
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.Contracts\bin\Debug\net5.0\Production.Entities.pdb
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.csproj.AssemblyReference.cache
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.AssemblyInfoInputs.cache
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.AssemblyInfo.cs
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.csproj.CoreCompileInputs.cache
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.csproj.CopyComplete
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.dll
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\refint\Production.Contracts.dll
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\Production.Contracts.pdb
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.Contracts\obj\Debug\net5.0\ref\Production.Contracts.dll

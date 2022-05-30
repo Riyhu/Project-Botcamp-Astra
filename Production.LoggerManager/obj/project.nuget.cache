@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XhUKhgmlrz2WyglHOoOjphF2weR3JFCv2N/EhyL8pT5MTMqkD+0CJDGFO+f0dv5qVL4BbaZKczDD7V3YKBGJxQ==",
+  "dgSpecHash": "TgqcGss7nRjBR2W5PhT2MCkmDu3bs0J/uJ57PguL1J4GhgIoZZA8fJtgihYLJIIVfsNVV+kcbhTTw/OLUJbxug==",
   "success": true,
-  "projectFilePath": "D:\\nww\\AdventureProduction-main\\Production.LoggerManager\\Production.LoggerService.csproj",
+  "projectFilePath": "D:\\zzz baru\\backup\\nww\\AdventureProduction-main\\Production.LoggerManager\\Production.LoggerService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

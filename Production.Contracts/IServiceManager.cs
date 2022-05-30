@@ -10,9 +10,15 @@ namespace Production.Contracts
 {
     public interface IServiceManager
     {
-        Task<IEnumerable<Product>> GetProductById(bool trackChanges);
-        Task<ProductModel> AddNameModel(int id);
-        Task<ProductSubcategory> AddSubCategory(int id);
-        Task<bool> AddToCart(AddProductDTO addProductDTO);
+
+        Task<Product> AddProductInformation(ProductWorkOrderDTO productWorkOrderDTO);
+        Task<WorkOrder> AddtoOrder(WorkOrderDTO workOrderDTO);
+        Task<IEnumerable<WorkOrderRouting>> GetAllOrderRouting(bool trackChanges);
+
+        Task<bool> SaveAll(PhotoDTO photoDTO);
+        Tuple<int, WorkOrder, string> AddtoOrders(int Id, short quantity, string custId, int employeeId, bool trackChanges);
+        
+        Tuple<int, ScrapReason, string> Reasoon(int id);
+       // Tuple<int, Order, string> ShipOrder(int id, ShipperDTO shipperDTO);
     }
 }

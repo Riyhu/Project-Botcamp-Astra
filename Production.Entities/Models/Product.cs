@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 #nullable disable
 
@@ -18,10 +19,9 @@ namespace Production.Entities.Models
             ProductReviews = new HashSet<ProductReview>();
             TransactionHistories = new HashSet<TransactionHistory>();
             WorkOrders = new HashSet<WorkOrder>();
-            ReorderPoint = 750; // ini utk default
+            //ReorderPoint = 750; // ini utk default
             //jika kita pakai EF mau bikin default value harus di konstruktor
         }
-
         public int ProductID { get; set; }
         public string Name { get; set; }
         public string ProductNumber { get; set; }

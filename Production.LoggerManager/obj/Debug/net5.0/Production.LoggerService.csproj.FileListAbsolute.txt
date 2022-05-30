@@ -83,3 +83,37 @@ D:\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Produc
 D:\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\refint\Production.LoggerService.dll
 D:\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.pdb
 D:\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\ref\Production.LoggerService.dll
+D:\backup\nww\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.LoggerService.deps.json
+D:\backup\nww\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.LoggerService.dll
+D:\backup\nww\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.LoggerService.pdb
+D:\backup\nww\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.Contracts.dll
+D:\backup\nww\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.Entities.dll
+D:\backup\nww\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.Contracts.pdb
+D:\backup\nww\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.Entities.pdb
+D:\backup\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.csproj.AssemblyReference.cache
+D:\backup\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+D:\backup\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.AssemblyInfoInputs.cache
+D:\backup\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.AssemblyInfo.cs
+D:\backup\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.csproj.CoreCompileInputs.cache
+D:\backup\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.csproj.CopyComplete
+D:\backup\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.dll
+D:\backup\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\refint\Production.LoggerService.dll
+D:\backup\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.pdb
+D:\backup\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\ref\Production.LoggerService.dll
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.LoggerService.deps.json
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.LoggerService.dll
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.LoggerService.pdb
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.Contracts.dll
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.Entities.dll
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.Contracts.pdb
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.LoggerManager\bin\Debug\net5.0\Production.Entities.pdb
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.csproj.AssemblyReference.cache
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.AssemblyInfoInputs.cache
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.AssemblyInfo.cs
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.csproj.CoreCompileInputs.cache
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.csproj.CopyComplete
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.dll
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\refint\Production.LoggerService.dll
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\Production.LoggerService.pdb
+D:\zzz baru\backup\nww\AdventureProduction-main\Production.LoggerManager\obj\Debug\net5.0\ref\Production.LoggerService.dll

@@ -1,90 +1,94 @@
-﻿using AutoMapper;
-using Production.Contracts;
-using Production.Entities.DTO;
+﻿using Production.Contracts;
 using Production.Entities.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AutoMapper;
+using Production.Entities.DTO;
 
 namespace Production.Repository
 {
     public class ServiceManager : IServiceManager
     {
         private readonly IRepositoryManager _repositoryManager;
-        private readonly ILoggerManager _logger;
         private readonly IMapper _mapper;
+        private readonly ILoggerManager _logger;
+        public ServiceManager()
+        {
+        }
 
-        public ServiceManager(IRepositoryManager repositoryManager)
+        public ServiceManager(IRepositoryManager repositoryManager, IMapper mapper,ILoggerManager logger)
         {
             _repositoryManager = repositoryManager;
+            _mapper = mapper;
+            _logger = logger;
         }
 
-        public Task<ProductModel> AddNameModel(int id)
+        public Task<ProductPhoto> AddPhoto(PhotoDTO photoDTO)
+        {
+            //Product product = new Product();
+            //ProductPhoto productPhoto = new ProductPhoto();
+            //ProductProductPhoto productPhoto2 = new ProductProductPhoto();
+            throw new NotImplementedException();
+        }
+
+        public async Task<Product> AddProductInformation(ProductWorkOrderDTO productWorkOrderDTO)
+        {
+            Product product = new Product();
+            product.ProductID = productWorkOrderDTO.ProductID;
+            product.Name = productWorkOrderDTO.Name;
+            product.ProductNumber = productWorkOrderDTO.ProductNumber;
+            product.DaysToManufacture = productWorkOrderDTO.DaytoManufacture;
+            product.ListPrice = productWorkOrderDTO.ListPrice;
+            _repositoryManager.Product.CreateProduct(product);
+            await _repositoryManager.SaveAsync();
+            return product;
+        }
+
+        public async Task<WorkOrder> AddtoOrder(WorkOrderDTO workOrderDTO)
+        {
+            WorkOrder workOrder = new WorkOrder();
+            workOrder.OrderQty = workOrderDTO.OrderQty;
+            workOrder.StockedQty = workOrderDTO.StockedQty;
+            workOrder.StartDate = workOrderDTO.StartDate;
+            workOrder.EndDate = workOrderDTO.EndDate;
+            workOrder.DueDate = workOrderDTO.DueDate;
+            _repositoryManager.WorkOrderRepository.CreateWorkOrder(workOrder);
+            await _repositoryManager.SaveAsync();
+            return workOrder;
+        }
+
+        public Tuple<int, WorkOrder, string> AddtoOrders(int Id, short quantity, string custId, int employeeId, bool trackChanges)
         {
             throw new NotImplementedException();
         }
 
-        public Task<ProductSubcategory> AddSubCategory(int id)
+        public async Task<IEnumerable<WorkOrderRouting>> GetAllOrderRouting(bool trackChanges)
         {
-            throw new NotImplementedException();
-        }
-
-        public async Task<bool> AddToCart(AddProductDTO addProductDTO)
-        {
+            //IEnumerable<WorkOrderRouting> routings = null;
             try
             {
-                var cart = await _repositoryManager.ProdukBaru.GetProductByID(addProductDTO.ProductID, trackChanges: true);
-                if (cart ==null)
-                {
-                    Product product = new Product();
-                    product.Name = addProductDTO.Name;
-                    product.ProductNumber = addProductDTO.ProductNumber;
-                    product.Color = addProductDTO.Color;
-                    product.SafetyStockLevel = addProductDTO.SafelyStockLevel;
-                    product.ListPrice = addProductDTO.ListPrice;
-                    product.StandardCost = addProductDTO.StandartCost;
-                    product.Size = addProductDTO.Size;
-                    product.SizeUnitMeasureCode = addProductDTO.unitMeasure;
-                    product.WeightUnitMeasureCode = addProductDTO.WeightType;
-                    product.Weight = addProductDTO.Weight;
-                    product.DaysToManufacture = addProductDTO.DaytoManufacture;
-                    product.ProductLine = addProductDTO.ProductLine;
-                    product.Class = addProductDTO.Class;
-                    product.Style = addProductDTO.Style;
-                    product.ProductSubcategoryID = addProductDTO.SubCategoryID;
-                    product.ProductModelID = addProductDTO.ProductModelID;
-                    product.MakeFlag = addProductDTO.MakeFlag;
-                    product.FinishedGoodsFlag = addProductDTO.FinishedFlag;
-                    product.SellStartDate = addProductDTO.SellStartDate;
-                    product.SellEndDate = addProductDTO.SellEndDate;
-                    product.DiscontinuedDate = addProductDTO.Discontinue;
-                    _repositoryManager.ProdukBaru.Create(product);
-                    await _repositoryManager.SaveAsync();
-                }
-                return true;
+                IEnumerable<WorkOrderRouting> routings1 = await _repositoryManager.WorkOrderRoutingRepository.GetAllOrderRouting(trackChanges: false);
+                //IEnumerable<WorkOrderRouting> a = _mapper.Map<WorkOrderRoutingDTO>(routings1);
+                return routings1;
             }
-            catch (Exception w)
+            catch (Exception e)
             {
-                _logger.LogInfo($"{w.Message}");
-                return false;
+                _logger.LogInfo(e.Message);
+                return null;
             }
         }
 
-        public Task<IEnumerable<Product>> GetProductById(bool trackChanges)
+        public Tuple<int, ScrapReason, string> Reasoon(int id)
         {
             throw new NotImplementedException();
-            //IEnumerable<Product> products1 = null;
-            //try
-            //{
-            //    IEnumerable<Product> products = _repositoryManager.ProductRepository.(trackChanges: false);
-            //    return Tuple.Create(1, products, "Suksses");
-            //}
-            //catch (Exception e)
-            //{
-            //    return Tuple.Create(-1, products1, e.Message);
-            //}
+        }
+
+        public Task<bool> SaveAll(PhotoDTO photoDTO)
+        {
+            throw new NotImplementedException();
         }
     }
 }

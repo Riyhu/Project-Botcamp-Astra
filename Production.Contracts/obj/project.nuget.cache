@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mzMsx0gNqscxzJSwWidm1hVJTP2EtgX4oOSVLCis+4m6rkRQqCuKH1ZODxHU+f4Z25XzCCET/gAQHBOGNvrbSg==",
+  "dgSpecHash": "wd/XW9CP+bwsIg7L5WR+M0K/sqzYA69qgS6rV40MRWgWTEek7zO+8Zu7t+xd8DWmcvTeXAAvmLAnMCB5W5QQCA==",
   "success": true,
-  "projectFilePath": "D:\\nww\\AdventureProduction-main\\Production.Contracts\\Production.Contracts.csproj",
+  "projectFilePath": "D:\\zzz baru\\backup\\nww\\AdventureProduction-main\\Production.Contracts\\Production.Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

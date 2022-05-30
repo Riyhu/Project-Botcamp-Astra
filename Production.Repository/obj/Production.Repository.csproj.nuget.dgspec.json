@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\nww\\AdventureProduction-main\\Production.Repository\\Production.Repository.csproj": {}
+    "D:\\zzz baru\\backup\\nww\\AdventureProduction-main\\Production.Repository\\Production.Repository.csproj": {}
   },
   "projects": {
-    "D:\\nww\\AdventureProduction-main\\Production.Contracts\\Production.Contracts.csproj": {
+    "D:\\zzz baru\\backup\\nww\\AdventureProduction-main\\Production.Contracts\\Production.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\nww\\AdventureProduction-main\\Production.Contracts\\Production.Contracts.csproj",
+        "projectUniqueName": "D:\\zzz baru\\backup\\nww\\AdventureProduction-main\\Production.Contracts\\Production.Contracts.csproj",
         "projectName": "Production.Contracts",
-        "projectPath": "D:\\nww\\AdventureProduction-main\\Production.Contracts\\Production.Contracts.csproj",
+        "projectPath": "D:\\zzz baru\\backup\\nww\\AdventureProduction-main\\Production.Contracts\\Production.Contracts.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\nww\\AdventureProduction-main\\Production.Contracts\\obj\\",
+        "outputPath": "D:\\zzz baru\\backup\\nww\\AdventureProduction-main\\Production.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\nww\\AdventureProduction-main\\Production.Entities\\Production.Entities.csproj": {
-                "projectPath": "D:\\nww\\AdventureProduction-main\\Production.Entities\\Production.Entities.csproj"
+              "D:\\zzz baru\\backup\\nww\\AdventureProduction-main\\Production.Entities\\Production.Entities.csproj": {
+                "projectPath": "D:\\zzz baru\\backup\\nww\\AdventureProduction-main\\Production.Entities\\Production.Entities.csproj"
               }
             }
           }
@@ -62,14 +62,14 @@
         }
       }
     },
-    "D:\\nww\\AdventureProduction-main\\Production.Entities\\Production.Entities.csproj": {
+    "D:\\zzz baru\\backup\\nww\\AdventureProduction-main\\Production.Entities\\Production.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\nww\\AdventureProduction-main\\Production.Entities\\Production.Entities.csproj",
+        "projectUniqueName": "D:\\zzz baru\\backup\\nww\\AdventureProduction-main\\Production.Entities\\Production.Entities.csproj",
         "projectName": "Production.Entities",
-        "projectPath": "D:\\nww\\AdventureProduction-main\\Production.Entities\\Production.Entities.csproj",
+        "projectPath": "D:\\zzz baru\\backup\\nww\\AdventureProduction-main\\Production.Entities\\Production.Entities.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\nww\\AdventureProduction-main\\Production.Entities\\obj\\",
+        "outputPath": "D:\\zzz baru\\backup\\nww\\AdventureProduction-main\\Production.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -142,14 +142,14 @@
         }
       }
     },
-    "D:\\nww\\AdventureProduction-main\\Production.Repository\\Production.Repository.csproj": {
+    "D:\\zzz baru\\backup\\nww\\AdventureProduction-main\\Production.Repository\\Production.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\nww\\AdventureProduction-main\\Production.Repository\\Production.Repository.csproj",
+        "projectUniqueName": "D:\\zzz baru\\backup\\nww\\AdventureProduction-main\\Production.Repository\\Production.Repository.csproj",
         "projectName": "Production.Repository",
-        "projectPath": "D:\\nww\\AdventureProduction-main\\Production.Repository\\Production.Repository.csproj",
+        "projectPath": "D:\\zzz baru\\backup\\nww\\AdventureProduction-main\\Production.Repository\\Production.Repository.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\nww\\AdventureProduction-main\\Production.Repository\\obj\\",
+        "outputPath": "D:\\zzz baru\\backup\\nww\\AdventureProduction-main\\Production.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -166,11 +166,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\nww\\AdventureProduction-main\\Production.Contracts\\Production.Contracts.csproj": {
-                "projectPath": "D:\\nww\\AdventureProduction-main\\Production.Contracts\\Production.Contracts.csproj"
+              "D:\\zzz baru\\backup\\nww\\AdventureProduction-main\\Production.Contracts\\Production.Contracts.csproj": {
+                "projectPath": "D:\\zzz baru\\backup\\nww\\AdventureProduction-main\\Production.Contracts\\Production.Contracts.csproj"
               },
-              "D:\\nww\\AdventureProduction-main\\Production.Entities\\Production.Entities.csproj": {
-                "projectPath": "D:\\nww\\AdventureProduction-main\\Production.Entities\\Production.Entities.csproj"
+              "D:\\zzz baru\\backup\\nww\\AdventureProduction-main\\Production.Entities\\Production.Entities.csproj": {
+                "projectPath": "D:\\zzz baru\\backup\\nww\\AdventureProduction-main\\Production.Entities\\Production.Entities.csproj"
               }
             }
           }

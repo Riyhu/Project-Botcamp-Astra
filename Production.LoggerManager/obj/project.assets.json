@@ -6523,11 +6523,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\nww\\AdventureProduction-main\\Production.LoggerManager\\Production.LoggerService.csproj",
+      "projectUniqueName": "D:\\zzz baru\\backup\\nww\\AdventureProduction-main\\Production.LoggerManager\\Production.LoggerService.csproj",
       "projectName": "Production.LoggerService",
-      "projectPath": "D:\\nww\\AdventureProduction-main\\Production.LoggerManager\\Production.LoggerService.csproj",
+      "projectPath": "D:\\zzz baru\\backup\\nww\\AdventureProduction-main\\Production.LoggerManager\\Production.LoggerService.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\nww\\AdventureProduction-main\\Production.LoggerManager\\obj\\",
+      "outputPath": "D:\\zzz baru\\backup\\nww\\AdventureProduction-main\\Production.LoggerManager\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6544,8 +6544,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\nww\\AdventureProduction-main\\Production.Contracts\\Production.Contracts.csproj": {
-              "projectPath": "D:\\nww\\AdventureProduction-main\\Production.Contracts\\Production.Contracts.csproj"
+            "D:\\zzz baru\\backup\\nww\\AdventureProduction-main\\Production.Contracts\\Production.Contracts.csproj": {
+              "projectPath": "D:\\zzz baru\\backup\\nww\\AdventureProduction-main\\Production.Contracts\\Production.Contracts.csproj"
             }
           }
         }
